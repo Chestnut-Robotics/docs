@@ -12,8 +12,9 @@ An 18-DoF dexterous robot hand, built to learn and deploy on the same hardware.
 ## In this section
 
 - [Specifications](specifications.md)
-- [Mechanical integration](mechanical.md)
+- Mechanical integration *(coming soon)*
 - [Electrical and communication](electrical.md)
-- [Control modes](control.md)
-- [Calibration](calibration.md)
-- [Maintenance](maintenance.md)
+- [Tactile interface](tactile.md)
+- Control modes *(coming soon)*
+- Calibration *(coming soon)*
+- Maintenance *(coming soon)*

@@ -22,6 +22,3 @@ Power, wiring and the CAN FD bus.
 | Host adapter | CAN FD to USB converter board, included |
 
 Tactile data has its own CAN FD port. See [Tactile interface](tactile.md).
-
-!!! note "Draft"
-    Still to be written: wiring diagram, recommended power supply, status lights and the CAN FD protocol for users who skip the SDK.

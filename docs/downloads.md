@@ -2,14 +2,11 @@
 
 Software, firmware, models and CAD in one place.
 
-!!! note "Draft"
-    Links are placeholders until each item is published.
-
 ## Software
 
 | Item | Version | Link |
 |---|---|---|
-| Aero Hand SDK (C++ / Python) | | [GitHub](https://github.com/chestnut-robotics) |
+| Aero Hand SDK (C++ / Python) | | *coming soon* |
 | ROS 2 packages | | *coming soon* |
 | Teleoperation app | | *coming soon* |
 
@@ -46,4 +43,4 @@ Software, firmware, models and CAD in one place.
 
 | Item | Link |
 |---|---|
-| Aero Hand Open | [GitHub](https://github.com/chestnut-robotics) |
+| Aero Hand Open | [GitHub](https://github.com/Chestnut-Robotics/aero-hand-open) · [Project page](https://chestnut-robotics.github.io/aero-hand-open/) |
