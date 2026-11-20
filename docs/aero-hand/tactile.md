@@ -52,4 +52,4 @@ CAD for the tactile modules is listed in [Downloads](../downloads.md#models-and-
 
 ## Reading tactile data
 
-*To be written:* CAN FD message IDs, frame layout, and SDK and ROS 2 examples.
+CAN FD message format and SDK examples are coming soon.

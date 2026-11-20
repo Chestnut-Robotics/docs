@@ -15,6 +15,3 @@ Optional egocentric capture module for Aero UMI.
 | Hand tracking (bare hand) | 21 keypoints, MPJPE ≤ 10 mm |
 | Weight | 240 g |
 | Continuous capture | 8 h |
-
-!!! note "Draft"
-    Setup and mounting instructions are being written.

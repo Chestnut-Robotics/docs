@@ -26,8 +26,7 @@ Set up, integrate and build with Aero Hand, Aero UMI and Chestnut data.
 ## Research
 
 <div class="cards cards--text">
-<a class="card" href="https://arxiv.org/abs/2608.28578"><div class="card-body"><strong>Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning</strong><span>arXiv 2026. Paper, project page, code and CAD</span></div></a>
-<a class="card" href="research/"><div class="card-body"><strong>All research</strong><span>Publications and how to cite them</span></div></a>
+<a class="card" href="research/"><div class="card-body"><strong>Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning</strong><span>arXiv 2026. Paper, project page, code and CAD</span></div></a>
 </div>
 
 ## Need help?

@@ -2,9 +2,6 @@
 
 Software, firmware, models and CAD in one place.
 
-!!! note "Draft"
-    Links are placeholders until each item is published.
-
 ## Software
 
 | Item | Version | Link |

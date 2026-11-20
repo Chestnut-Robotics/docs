@@ -57,4 +57,4 @@ Same connector and pinout as [Aero Hand](../aero-hand/tactile.md#electrical-inte
 
 ## Reading tactile data
 
-*To be written:* topic names, message schema and a Python example.
+Topic names, message schema and a Python example are coming soon.
