@@ -9,7 +9,7 @@ Software, firmware, models and CAD in one place.
 
 | Item | Version | Link |
 |---|---|---|
-| Aero Hand SDK (C++ / Python) | | [GitHub](https://github.com/chestnut-robotics) |
+| Aero Hand SDK (C++ / Python) | | *coming soon* |
 | ROS 2 packages | | *coming soon* |
 | Teleoperation app | | *coming soon* |
 

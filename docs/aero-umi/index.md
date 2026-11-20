@@ -13,6 +13,6 @@ A wearable capture device, co-designed with Aero Hand joint for joint.
 ## In this section
 
 - [Specifications](specifications.md)
-- [Wearing and calibration](wearing.md)
+- Wearing and calibration *(coming soon)*
 - [Tactile sensing](tactile.md)
 - [Head module](head-module.md)

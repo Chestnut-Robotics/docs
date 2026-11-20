@@ -50,6 +50,19 @@ extra:
     - icon: fontawesome/solid/globe
       link: https://chestnut.bot
 
+# Pages without content yet. Kept in the repo, left out of the built site.
+# Move a page out of this list (and back into nav) when it is ready.
+exclude_docs: |
+  get-started/
+  software/
+  support/
+  aero-hand/mechanical.md
+  aero-hand/control.md
+  aero-hand/calibration.md
+  aero-hand/maintenance.md
+  aero-umi/wearing.md
+  data/format.md
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -74,42 +87,20 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Get started:
-      - get-started/index.md
-      - Quick Start, Aero Hand: get-started/quick-start-hand.md
-      - Quick Start, Aero UMI: get-started/quick-start-umi.md
-      - Safety and notices: get-started/safety.md
   - Aero Hand:
       - aero-hand/index.md
       - Specifications: aero-hand/specifications.md
-      - Mechanical integration: aero-hand/mechanical.md
       - Electrical and communication: aero-hand/electrical.md
       - Tactile interface: aero-hand/tactile.md
-      - Control modes: aero-hand/control.md
-      - Calibration: aero-hand/calibration.md
-      - Maintenance: aero-hand/maintenance.md
   - Aero UMI:
       - aero-umi/index.md
       - Specifications: aero-umi/specifications.md
-      - Wearing and calibration: aero-umi/wearing.md
       - Tactile interface: aero-umi/tactile.md
       - Head module: aero-umi/head-module.md
-  - Software:
-      - software/index.md
-      - SDK (C++ and Python): software/sdk.md
-      - ROS 2: software/ros2.md
-      - Models and simulation: software/models.md
-      - Teleoperation: software/teleoperation.md
   - Data:
       - data/index.md
       - Sample data: data/sample-data.md
-      - Format (MCAP): data/format.md
       - Web viewer: data/viewer.md
   - Research:
       - research/index.md
   - Downloads: downloads.md
-  - Support:
-      - support/index.md
-      - Troubleshooting: support/troubleshooting.md
-      - FAQ: support/faq.md
-      - Changelog: support/changelog.md
