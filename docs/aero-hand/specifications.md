@@ -34,14 +34,7 @@ Hardware revision R2.7.
 
 ## Electrical and communication
 
-| Specification | Value |
-|---|---|
-| Operating voltage | 20–50 VDC wide input |
-| Continuous stall current | 6 A at 24 VDC |
-| Standby power | < 7.2 W |
-| Communication | CAN FD |
-| Control frequency | 10 kHz low-level current loop · 200 Hz high-level communication |
-| Connectors | XT30-M power · A1257H-CJT CAN FD |
+20–50 VDC input, CAN FD communication. Current, power, connectors and control frequency are in [Electrical and communication](electrical.md).
 
 ## Software and control
 

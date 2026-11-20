@@ -27,3 +27,6 @@
 .cards .card--soon strong .soon-tag { display: inline-block; font-style: normal; font-size: .58rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 1px 8px; border-radius: 99px; border: 1px solid currentColor; margin-left: 8px; vertical-align: middle; }
 
 .md-typeset .draft-tag { display: inline-block; font-size: .6rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; padding: 2px 8px; border-radius: 99px; background: #f3e6dc; color: #602909; vertical-align: middle; margin-left: 6px; }
+.cards--single { grid-template-columns: minmax(0, 420px); }
+[data-md-color-scheme="slate"] .md-typeset .md-button { color: var(--md-accent-fg-color); border-color: var(--md-accent-fg-color); }
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary { color: #111111; background-color: var(--md-accent-fg-color); }

@@ -23,15 +23,7 @@ Current production revision.
 
 ## Tactile
 
-| Specification | Value |
-|---|---|
-| Channels | About 500: 54–57 per fingertip, 213 on the palm |
-| Modules | Six: five fingertips and the palm |
-| Force resolution | 0.1 N |
-| Force axes | Normal and 2D shear (3-axis) |
-| Sensor type | Conformal flexible piezoresistive arrays |
-| Sensing range | 0.1–20 N |
-| Refresh rate | 70–100 Hz |
+About 500 channels on six modules (five fingertips and the palm), 0.1 N resolution, normal and shear force. Channel layout, range, refresh rate and wiring are in [Tactile interface](tactile.md).
 
 ## Data, sync and tracking
 
