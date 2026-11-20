@@ -1,0 +1,115 @@
+site_name: Chestnut Developer Docs
+site_url: https://chestnut-robotics.github.io/docs/
+site_description: Documentation for Aero Hand, Aero UMI and Chestnut data
+repo_url: https://github.com/chestnut-robotics
+repo_name: chestnut-robotics
+copyright: © 2026 Chestnut Robotics
+
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  homepage: https://chestnut.bot
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/chestnut-robotics
+    - icon: fontawesome/solid/globe
+      link: https://chestnut.bot
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Get started:
+      - get-started/index.md
+      - Quick Start, Aero Hand: get-started/quick-start-hand.md
+      - Quick Start, Aero UMI: get-started/quick-start-umi.md
+      - Safety and notices: get-started/safety.md
+  - Aero Hand:
+      - aero-hand/index.md
+      - Specifications: aero-hand/specifications.md
+      - Mechanical integration: aero-hand/mechanical.md
+      - Electrical and communication: aero-hand/electrical.md
+      - Tactile interface: aero-hand/tactile.md
+      - Control modes: aero-hand/control.md
+      - Calibration: aero-hand/calibration.md
+      - Maintenance: aero-hand/maintenance.md
+  - Aero UMI:
+      - aero-umi/index.md
+      - Specifications: aero-umi/specifications.md
+      - Wearing and calibration: aero-umi/wearing.md
+      - Tactile interface: aero-umi/tactile.md
+      - Head module: aero-umi/head-module.md
+  - Software:
+      - software/index.md
+      - SDK (C++ and Python): software/sdk.md
+      - ROS 2: software/ros2.md
+      - Models and simulation: software/models.md
+      - Teleoperation: software/teleoperation.md
+  - Data:
+      - data/index.md
+      - Sample data: data/sample-data.md
+      - Format (MCAP): data/format.md
+      - Web viewer: data/viewer.md
+  - Research:
+      - research/index.md
+  - Downloads: downloads.md
+  - Support:
+      - support/index.md
+      - Troubleshooting: support/troubleshooting.md
+      - FAQ: support/faq.md
+      - Changelog: support/changelog.md
