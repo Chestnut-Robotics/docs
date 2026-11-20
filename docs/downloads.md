@@ -46,4 +46,4 @@ Software, firmware, models and CAD in one place.
 
 | Item | Link |
 |---|---|
-| Aero Hand Open | [GitHub](https://github.com/chestnut-robotics) |
+| Aero Hand Open | [GitHub](https://github.com/Chestnut-Robotics/aero-hand-open) · [Project page](https://chestnut-robotics.github.io/aero-hand-open/) |
